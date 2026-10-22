@@ -43,7 +43,7 @@ window.CONFIG = {
   // video:     true  -> toca o vídeo (assets/video.mp4) depois da abertura.
   //            false  -> pula direto da abertura para a tela principal.
   // Cada opção pode ser true ou false.
-  // Quando estiver false, o hotspot, a tela e a opção do editor são removidos.
+  // Quando estiver false, o hotspot, a tela e a opção do editor são removidos
   telas: {
     video: true,
     whatsapp: true,
@@ -62,7 +62,7 @@ window.CONFIG = {
   pix: {
     ativo: true,
     chave: "00",
-    posicao: {"left":16.8,"top":64.0,"width":66.0,"height":8.2}
+    posicao: {"left":17.004469723442494,"top":73.66628028042106,"width":66,"height":8.2}
   },
 
   // ----- TEXTOS DOS BOTÕES -----------------------------------------------
@@ -89,9 +89,9 @@ window.CONFIG = {
   // mostrarTexto: true mostra “Voltar”; false deixa apenas a área clicável.
   // A posição pode ser alterada no editor ?editor=1.
   botoesVoltar: {
-    presentes: { mostrarTexto:false, posicao: {"left":24.2,"top":83.6,"width":55.0,"height":7.8} },
-    dresscode: { mostrarTexto:true, posicao: {"left":26.805437549920125,"top":86.88550214891683,"width":46.581485248602235,"height":5.424627114446271} },
-    manual: { mostrarTexto:true, posicao: {"left":25.783057732627793,"top":85.2744510457582,"width":47.80830358925719,"height":5.309555171188598} }
+    presentes: { mostrarTexto:false, posicao: {"left":27.471577975239615,"top":88.08791882324361,"width":45.38976699780351,"height":5.843723190119329} },
+    dresscode: { mostrarTexto:false, posicao: {"left":26.805437549920125,"top":88.38147801650145,"width":46.581485248602235,"height":5.424627114446271} },
+    manual: { mostrarTexto:false, posicao: {"left":25.987527456070286,"top":88.49654886232034,"width":47.80830358925719,"height":5.309555171188598} }
   },
 
   // ----- POSIÇÃO DOS BOTÕES NA TELA PRINCIPAL ----------------------------
@@ -100,11 +100,11 @@ window.CONFIG = {
   //   left/top: canto superior esquerdo do botão
   //   width/height: tamanho do botão
     hotspots: {
-        confirm: { left:19.111031037141306, top:63.8032059022128, width:15.963035699920129, height:8.57238650880756 },
-        map: { left:42.3313764835857, top:64.03332543810177, width:15.611963461541478, height:8.522989476077747 },
-        gift: { left:64.6203873670928, top:63.907444274051855, width:16.091044953075077, height:8.643484137471408 },
-        dress: { left:30.670926517571885, top:77.02597723193821, width:15.682105506190094, height:8.298251846116688 },
-        manual: { left:53.98780574768387, top:76.56567628964217, width:16.29551467651757, height:8.528402317264716 }
+        confirm: { left:26.267596157948017, top:61.386628150036074, width:11.05568433710064, height:7.076415030978062 },
+        map: { left:44.785059965015414, top:61.38661477379749, width:10.909097422204418, height:6.796867527100222 },
+        gift: { left:63.18908370295542, top:61.375806650444034, width:11.183709190295524, height:7.377654351279698 },
+        dress: { left:34.760383386581466, top:71.15716436131667, width:12.001588084065494, height:7.492731781731272 },
+        manual: { left:54.60123051805128, top:70.92700511065843, width:10.365799096445684, height:7.492736171486392 }
   },
 
   // ----- CONTAGEM REGRESSIVA ---------------------------------------------
